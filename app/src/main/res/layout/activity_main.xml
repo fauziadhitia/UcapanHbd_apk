@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+<!-- ImageView adalah komponen dasar android yang tugasnya menampilkan gambar. Gambar di komponen imageview bisa diambil dari Assets atau dari Drawable   -->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
@@ -19,6 +20,7 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/androidparty" />
 
+<!--   TextView adalah subkelas dari kelas View yang menampilkan teks di layar. disini kita mengontrol bagaimana teks muncul dengan atribut TextView pada file layout XML -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
